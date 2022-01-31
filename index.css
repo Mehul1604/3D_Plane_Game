@@ -1,0 +1,50 @@
+#info {
+	position: absolute;
+	width: 350px;
+    height: 250px;
+	text-align: center;
+	z-index: 200;
+	display:block;
+    border: red 2px ridge;
+}
+
+#lost {
+	position: absolute;
+	left: 750px;
+	width: 350px;
+    height: 250px;
+	text-align: center;
+	z-index: 200;
+	display:none;
+}
+
+#controls {
+	position: absolute;
+	left: 1500px;
+	width: 350px;
+    height: 250px;
+	text-align: center;
+	z-index: 200;
+	display:block;
+	color: royalblue;
+	border: white 2px ridge;
+}
+
+#game_title{
+	font-size: 300%;
+	text-shadow: white 2px 2px;
+	color: red;
+	padding-top: -50px;
+}
+
+#health{
+	color: green;
+	font-size: 150%;
+	margin-top: -20px;
+}
+
+#star_h3{
+	color: white;
+	font-size: 150%;
+	text-shadow: 2px 2px red;
+}
